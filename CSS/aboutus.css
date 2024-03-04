@@ -1,0 +1,135 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-div{
+background-color: skyblue !important;
+color:white;
+padding:2vw;
+}
+.container{
+    background-color: white;
+}
+.about-us-left{
+    background: url("../images/ev\ making.avif");
+    /* border:2px solid red; */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:60vh;
+    width:100%
+    
+
+}
+p{
+    line-height: 1.6;
+}
+.about-us{
+    /* border:2px solid black; */
+    width:96%;
+    margin: auto !important;
+    display:flex;
+    justify-content: space-between;
+    padding:1rem 3rem;
+}
+.about-us-right h4{
+    /* border: 2px solid green; */
+    color:red;
+    
+}
+.parent{
+    width:90% !important;
+    /* border: 2px solid black; */
+    margin: auto !important;
+}
+.why-us-container{
+    margin-top: 20px;
+}
+.why-us-container h1{
+    margin-bottom: 20px;
+   
+    /* color:red; */
+}
+.why-us-container h1:hover{
+    color:blue;
+}
+.why-us-container ul li{
+    line-height: 5vh;
+    text-align: left;
+    text-align: justify;
+    font-size: 18px;
+    list-style-type: disc;
+}
+.our-program-parent{
+    margin: 25px auto !important;
+    font-size: 20px;
+    border:2px solid lightgrey;
+    border-radius: 10px;
+    margin: auto;
+    line-height: 6vh;
+    /* line-height: 1.6; */
+}
+.our-program-parent h1{
+    color:red;
+    margin: 20px auto;
+}
+.join-revolution{
+    margin-top: 20px !important;
+    padding:20px 20px !important;
+   
+}
+hr{
+    background-color: red !important;
+    height:2px;
+    border:none;
+    width:20vw;
+    margin: auto !important;
+}
+.join-revolution h1{
+    color:skyblue;
+    padding-bottom: 10px;
+  
+}
+.join-revolution p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+@media screen and (min-width:280px) and (max-width:500px){
+
+.about-us-left{
+    width:100% !important;
+    margin-bottom: 10px;
+}
+.about-us{
+    padding:0px 0px;
+    width:100%;
+}
+.about-us p{
+    text-align: justify;
+}
+.why-us-container ul li {
+line-height: 4vh;
+}
+.our-program-parent h4{
+    font-size: 18px;
+    text-align: justify;
+}
+.join-revolution p{
+text-align: justify;
+}
+.parent{
+    width:auto !important;
+    
+}
+/* .about-us-parent{
+    padding-top: 20px;
+} */
+.our-program-parent{
+    width:95% !important;
+}
+.why-us-container li{
+    font-size: 17px !important;
+    margin-bottom: 10px;
+}
+}

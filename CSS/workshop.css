@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+span{
+    color:white;
+}
+.bg{
+   
+    padding:30px 0px;
+    background-color: skyblue;
+    
+}
+.bg p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.bg .book-slot-btn{
+    background-color: rgba(255, 0, 0, 0.677);
+    padding: 12px 18px;
+    border-radius: 20px;
+    border:none !important;
+    outline:none !important;
+    font-size: 18px;
+    color:white;
+    transition: 0.4s linear;
+
+}
+.bg button:hover{
+background-color: black;
+color:white !important;
+}
+.parent1{
+    width:80%;
+    margin: auto !important;
+    /* border: 2px solid black; */
+
+}
+.space{
+    margin-top: 20px !important;
+}
+.mentor-image-left{
+    /* border:2px solid black; */
+   
+   
+    /* padding:20px; */
+    /* height:40vh; */
+    width:100%;
+    
+}
+.mentor-image-left img{
+    height:40vh;
+    width:100%;
+    
+}
+.mentor-description-right{
+padding:20px 30px !important;
+}
+.mentor-description-right h1{
+    margin-bottom: 40px;
+}
+.mentor-description-right p{
+    font-size: 2opx;
+}
+.parent1 .book-slot-btn{
+    background-color: rgba(255, 0, 0, 0.677);
+    padding: 12px 18px;
+    border-radius: 20px;
+    border:none !important;
+    outline:none !important;
+    font-size: 18px;
+    color:white;
+    transition: 0.4s linear;
+}
+.parent1 .book-slot-btn:hover{
+    background-color: black;
+    color:white !important;
+}
+.color{
+    background-color: white;
+}
+.workshop-card{
+    padding-top: 20px;
+}
+.workshop-card h1{
+    margin-bottom: 20px;
+}
+.workshop-card h5{
+  color:blue;
+   
+}
+.what-you-learn-container{
+background-color: skyblue;
+padding-top: 20px;
+margin-top: 20px;
+}
+.what-you-learn{
+    width:80% !important;
+    margin: auto !important;
+    /* border: 2px solid black; */
+}
+.what-you-learn li{
+    list-style-type: disc;
+    font-size: 18px;
+}
+.what-you-learn h1{
+margin-bottom: 20px;
+}
+
+.day-1 {
+    color:red;
+}
+.day-2{
+    color:red;
+}
+.what-you-learn p{
+    font-size: 20px;
+}
+.parent1 ul li{
+    text-align: left;
+    font-size: 20px;
+    list-style-type: disc !important;
+}
+.center-div{
+    /* border: 2px solid black; */
+    width:60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px !important;
+}
+.center-div h1{
+    color:blue;
+    text-align: left;
+    margin: 20px 0px;
+}
+@media screen and (min-width:280px) and (max-width:500px){
+    .row-cols-2 > *{
+        width:100% !important;
+    }
+    .what-you-learn {
+        width:100% !important;
+    }
+    .center-div {
+width:90%;
+    }
+}
