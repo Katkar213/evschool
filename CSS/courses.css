@@ -70,10 +70,10 @@ color:white;
     position: relative;
     margin-bottom: 50px;
 }
-.diploma-courses-parent li{
+/* .diploma-courses-parent li{
     list-style-type: disc;
     
-}
+} */
 .diploma-courses-parent h3{
     color:rgba(0, 0, 255, 0.652) !important;
 }
