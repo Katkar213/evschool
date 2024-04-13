@@ -13,3 +13,6 @@ const buttons=document.querySelectorAll("button");
     })
 })
 
+
+
+// slider...

@@ -75,7 +75,7 @@ color:white;
     
 } */
 .diploma-courses-parent h3{
-    color:rgba(0, 0, 255, 0.652) !important;
+    color:blue !important;
 }
 .know-more-btn{
     background-color: skyblue;
@@ -95,6 +95,9 @@ color:white;
 .card-details h3{
     font-size: 23px;
 }
+
+
+
 
 @media screen and (min-width:280px) and (max-width:500px){
   .course-card{

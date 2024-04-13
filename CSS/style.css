@@ -578,7 +578,7 @@ padding:2px 20px;
     display:none;
 }
 .header2-left img{
-    width:6rem;
+    width:23rem;
 }
 .parent-3{
     padding-top: 1rem;
@@ -586,6 +586,7 @@ padding:2px 20px;
 
 
 
+/* slider-header............. */
 
 /* slider.......................... */
 .parent-outer{
@@ -633,6 +634,23 @@ padding:2px 20px;
     animation: 30s demo linear infinite;
 }
 
+
+
+/* upcoming-event.................... */
+.upcoming-event-parent{
+    background-color: white !important;
+    width:85% !important;
+    margin: auto;
+    margin: 3rem auto;
+    border:2px solid black;
+    border-radius: 10px;
+    padding:5px;
+}
+.upcoming-event-parent ul li{
+    list-style-type: disc !important;
+}
+
+
 @keyframes demo{
     from{
         transform:translateX(95%);
@@ -643,6 +661,17 @@ padding:2px 20px;
     }
 
 }
+
+
+
+.active{
+    border-bottom: 2px solid rgba(0, 0, 255, 0.341) !important;
+    height:2rem;
+}
+a:hover{
+    color:blue;
+}
+
 /* mobile-media-query............................... */
 
 
