@@ -49,6 +49,9 @@
 .question p{
     transition: 2s linear;
 }
+.active{
+    border-bottom: 2px solid skyblue !important;
+}
 
 @media screen and (min-width:280px) and (max-width:500px){
     .inner-container{
