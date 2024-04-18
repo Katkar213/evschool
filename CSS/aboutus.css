@@ -23,6 +23,26 @@ padding:2vw;
 
 }
 p{
+    font-size: 17px;
+}
+.about-us-parent{
+    width:90%;
+    margin: auto;
+}
+
+.about-us-heading{
+    color:blue;
+}
+.about-us-heading + ul li{
+
+    list-style-type: square !important;
+
+}
+li::marker {
+    color: blue;
+  }
+
+p{
     line-height: 1.6;
 }
 .about-us{
