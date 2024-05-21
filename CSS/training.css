@@ -1,0 +1,18 @@
+.training-hero-section{
+    padding:4rem 4rem !important;
+    width:100% !important;
+    background-color: #1A76D1;
+
+}
+
+.icons li{
+    list-style-type: disc;
+    font-size: 20px;
+   
+}
+.training-modules-div{
+    /* border:2px solid black; */
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+    padding:10px 0;
+}
